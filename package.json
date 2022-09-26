@@ -3,8 +3,8 @@
   "version": "0.1.5",
   "description": "Express Typescript Common",
   "private": false,
-  "main": "./build/index.js",
-  "types": "./build/index.d.ts",
+  "main": "./build/index",
+  "types": "./build/index",
   "files": [
     "build/**/*"
   ],
