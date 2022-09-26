@@ -1,6 +1,6 @@
 {
   "name": "express-typescript-common",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Express Typescript Common",
   "private": false,
   "main": "./build/index.js",
