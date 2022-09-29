@@ -3,11 +3,11 @@ import passport from 'passport';
 import { NotAuthorizedError } from '../errors/not-authorized.error';
 
 export const verifyAuth = (req: Request, res: Response, next: NextFunction) =>
-    passport.authenticate('jwt', { session: false }, (err: any, user: any) => {
-        if (err || !user) {
+    passport.authenticate('jwt', { session: false }, (err: any, userId: any) => {
+        if (err || !userId) {
             throw new NotAuthorizedError(err?.message ?? 'Unauthorized!');
         }
 
-        req.user = user;
+        req.user = userId;
         return next();
     })(req, res, next);
