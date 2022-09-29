@@ -10,3 +10,6 @@ export * from './errors/not-found.error';
 // Middlewares
 export * from './middlewares/error-handler.middleware';
 export * from './middlewares/verify-auth.middleware';
+//utils
+export * from './utils/jwt-strategy';
+
