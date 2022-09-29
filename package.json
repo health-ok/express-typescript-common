@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/health-ok/express-typescript-common#readme",
   "dependencies": {
+    "@types/passport-jwt": "3.0.6",
     "express": "4.18.1",
     "passport": "0.6.0",
     "passport-jwt": "4.0.0"
